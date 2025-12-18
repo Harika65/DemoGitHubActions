@@ -2,10 +2,7 @@
 name: CIname
 
 on:
-  push:
-    branches: [ feature-1.0 ]
-  pull_request:
-    branches: [ feature-1.0 ]
+  workflow_dispatch:
 
 jobs:
   build-and-test:
